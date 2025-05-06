@@ -1,0 +1,6 @@
+[submodule "src/rm_can_hardware_interface"]
+	path = src/rm_can_hardware_interface
+	url = https://github.com/Sail-wang/rm_can_hardware_interface.git
+[submodule "src/rm_can_bringup"]
+	path = src/rm_can_bringup
+	url = https://github.com/Sail-wang/rm_can_bringup.git
