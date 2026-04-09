@@ -1,12 +1,16 @@
 [submodule "src/rm_can_hardware_interface"]
 	path = src/rm_can_hardware_interface
 	url = https://github.com/Sail-wang/rm_can_hardware_interface.git
+	branch = main
 [submodule "src/rm_can_bringup"]
 	path = src/rm_can_bringup
 	url = https://github.com/Sail-wang/rm_can_bringup.git
+	branch = main
 [submodule "src/cakey_model"]
 	path = src/cakey_model
 	url = https://github.com/Sail-wang/cakey_model.git
+	branch = main
 [submodule "src/units"]
 	path = src/units
 	url = https://github.com/Sail-wang/units.git
+	branch = main
