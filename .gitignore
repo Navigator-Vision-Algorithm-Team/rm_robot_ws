@@ -9,3 +9,8 @@ test/
 __pycache__/
 build_log_test.txt
 build_log.txt
+compile_commands.json
+.gitignore
+temp.urdf
+setup_vcan.sh
+vcan_simulator.py
