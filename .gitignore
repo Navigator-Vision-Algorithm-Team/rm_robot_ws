@@ -7,3 +7,5 @@ test/
 *.swo
 *.pyc
 __pycache__/
+build_log_test.txt
+build_log.txt

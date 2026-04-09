@@ -4,3 +4,9 @@
 [submodule "src/rm_can_bringup"]
 	path = src/rm_can_bringup
 	url = https://github.com/Sail-wang/rm_can_bringup.git
+[submodule "src/cakey_model"]
+	path = src/cakey_model
+	url = https://github.com/Sail-wang/cakey_model.git
+[submodule "src/units"]
+	path = src/units
+	url = https://github.com/Sail-wang/units.git
