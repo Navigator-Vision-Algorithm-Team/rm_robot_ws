@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="17" failures="0" disabled="0" errors="0" time="0.001" timestamp="2026-06-18T15:12:25" name="AllTests">
+  <testsuite name="DifferentialTransmissionTest" tests="3" failures="0" disabled="0" errors="0" time="0.001" timestamp="2026-06-18T15:12:25">
+    <testcase name="LoadSuccess" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DifferentialTransmissionTest" />
+    <testcase name="LoadReturnsNullOnOnlyOneJoint" status="run" result="completed" time="0.001" timestamp="2026-06-18T15:12:25" classname="DifferentialTransmissionTest" />
+    <testcase name="LoadReturnsNullOnZeroReduction" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DifferentialTransmissionTest" />
+  </testsuite>
+  <testsuite name="DiffTransDataFlowTest" tests="8" failures="0" disabled="0" errors="0" time="0" timestamp="2026-06-18T15:12:25">
+    <testcase name="ActuatorToJointEffortBothPositive" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransDataFlowTest" />
+    <testcase name="ActuatorToJointEffortSymmetric" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransDataFlowTest" />
+    <testcase name="ActuatorToJointPosition" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransDataFlowTest" />
+    <testcase name="ActuatorToJointVelocity" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransDataFlowTest" />
+    <testcase name="JointToActuatorEffort" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransDataFlowTest" />
+    <testcase name="JointToActuatorPosition" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransDataFlowTest" />
+    <testcase name="PositionRoundTrip" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransDataFlowTest" />
+    <testcase name="EffortRoundTrip" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransDataFlowTest" />
+  </testsuite>
+  <testsuite name="DiffTransWithReductionTest" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2026-06-18T15:12:25">
+    <testcase name="ActToJointEffortWithReduction" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransWithReductionTest" />
+    <testcase name="ActToJointPositionWithReduction" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransWithReductionTest" />
+    <testcase name="JointToActEffortWithReduction" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DiffTransWithReductionTest" />
+  </testsuite>
+  <testsuite name="DifferentialTransmissionOffsetTest" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2026-06-18T15:12:25">
+    <testcase name="OffsetAffectsPositionOnly" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DifferentialTransmissionOffsetTest" />
+  </testsuite>
+  <testsuite name="DifferentialTransmissionNamingTest" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2026-06-18T15:12:25">
+    <testcase name="LexicographicOrderAffectsSlotAssignment" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DifferentialTransmissionNamingTest" />
+  </testsuite>
+  <testsuite name="DifferentialTransmissionErrorTest" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2026-06-18T15:12:25">
+    <testcase name="ConfigureThrowsOnTooFewJoints" status="run" result="completed" time="0" timestamp="2026-06-18T15:12:25" classname="DifferentialTransmissionErrorTest" />
+  </testsuite>
+</testsuites>
