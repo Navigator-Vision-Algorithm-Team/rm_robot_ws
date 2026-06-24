@@ -14,3 +14,4 @@ compile_commands.json
 temp.urdf
 setup_vcan.sh
 vcan_simulator.py
+src/rm_can_hardware_test
